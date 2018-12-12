@@ -16,6 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="d64f251e033f2ff7c3123cc7b9f65e54469aa7cc" />
         <activity android:name=".SecondActivity" />
         <activity android:name=".ThirdActivity" />
         <activity android:name=".FourthActivity"></activity>
