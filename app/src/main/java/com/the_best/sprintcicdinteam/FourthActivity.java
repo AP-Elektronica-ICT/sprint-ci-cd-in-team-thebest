@@ -18,6 +18,7 @@ public class FourthActivity extends AppCompatActivity {
     public void IncreaseCounter(View view) {
         counter = Integer.parseInt(number.getText().toString());
         counter++;
-        number.setText(counter);
+        number.setText(Integer.toString(counter));
     }
+
 }
